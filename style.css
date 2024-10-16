@@ -6,6 +6,7 @@ body{
     font-family: "Open Sans", sans-serif;
 }
 .my-head{
+    /* display: none; */
     background-color: #fff8f3;
     background-image: url('images/header_bg.png'),url('images/developer.png');
     background-repeat: no-repeat;
@@ -100,6 +101,7 @@ li a{
 /*-- About Me Sestion-- */
 
 .mein-fast-section{
+    /* display: none; */
    background-color: #fff8f3;
    padding: 130px 150px;
    margin: 130px 150px;
@@ -132,6 +134,7 @@ margin: auto; */
 
  /* what T do */
 .isha{
+    /* display: none; */
     /* text-align: center; */
     /* margin: 0px 230px 130px; */
     margin: 0px 200px 130px 200px;
@@ -193,8 +196,11 @@ margin-bottom: 42px;
     text-align: center;
     margin-top: 121px;
 }
+/* .A summary{
+    margin: 0px 200px 130px 200px;
+} */
 .resume{
-    /* margin: 0px 200px 130px 200px; */
+    margin: 0px 200px 130px 200px;
     display: flex;
 }
 .vai1{
@@ -226,6 +232,7 @@ margin-bottom: 42px;
 }
 .down{
     text-align: center;
+    margin-bottom: 20px;
 }
 .d2{
     margin-left: 10px;
@@ -235,12 +242,14 @@ margin-bottom: 42px;
 
    /* footer kaj */
 .sase{
+    /* display: none; */
     display: flex;
-    background-color: #fff8f3;
     /* height: 780px;
     width: 100%; */
-    padding: 130px 230px;
-
+    /* margin: 130px 230px; */
+    background-color: #fff8f3;
+    padding: 130px 200px;
+   
 }
 form input[type='text'],form input[type='email'],form textarea{
     display: block;
@@ -250,11 +259,11 @@ form input[type='text'],form input[type='email'],form textarea{
     width: 50%;
 }
 
-.md{
+/* .md{
     margin-left: 117px;
-}
+} */
 .mail{
-    padding:18px  ;
+    padding:18px;
     margin-bottom: 24px;
     border: none;
 }
@@ -287,4 +296,53 @@ form input[type='text'],form input[type='email'],form textarea{
 }
 .rong{
     color: #474747;
+}
+@media screen and (max-width:576px){
+  
+    .resume{
+        margin: 20px;
+        flex-direction: column;
+    }
+    .n{
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .sase{ 
+        flex-direction: column-reverse;
+        padding: 50px;
+      
+    }
+    .sase section{
+        width: 100%;
+    }
+    .baba{
+        flex-direction: column;
+        margin: 20px;
+        gap: 10px;
+    }
+    .paragrap{
+        margin: 20px;
+        margin-bottom: 10px;
+    }
+    .isha{
+        margin: 20px;
+    }
+    .mein-fast-section{
+        margin: 20px;
+        padding: 15px;
+    }
+    .about-me-sectioi{
+        flex-direction: column-reverse;
+       
+    }
+    /* .my-head{
+        background-image: 50%;
+    } */
+    .Mary-hardy{
+        flex-direction: column;
+        padding: 3px;
+    }
+   /* .butn{
+    margin-bottom: 10px;
+   } */
 }
